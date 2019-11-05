@@ -3,7 +3,7 @@ import http.client, urllib.request, urllib.parse, urllib.error, base64, json, re
 class azureVisionAPI():
 	apiRegion = 'eastus'
 	apiURL = 'https://{}.api.cognitive.microsoft.com/vision/v1.0/analyze'.format(apiRegion)
-	apiKey = '*************************'
+	apiKey = '************************'
 	maxNumRetries = 10
 	params = {'visualFeatures':'Categories,Tags,Description,Color'}
 	headers = {
