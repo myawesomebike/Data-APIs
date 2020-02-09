@@ -1,5 +1,4 @@
 <?
-
 class itunesRequest {
 	var $itRequestID = -1;
 	var $country = "us";
