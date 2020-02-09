@@ -282,6 +282,5 @@ class redditScraperGUI(Tk):
 		threading.Thread(target = scraperThread).start()
 
 if __name__ == '__main__':
-
 	app = redditScraperGUI()
 	app.mainloop()
