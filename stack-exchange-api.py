@@ -192,4 +192,4 @@ class stackAPI():
 
 
 stack = stackAPI()
-stack.stackExchange('medicalsciences','physical therapy')
+stack.stackExchange('python','api')
